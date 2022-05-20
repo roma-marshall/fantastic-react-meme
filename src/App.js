@@ -15,7 +15,7 @@ function App() {
             <header className="App-header">
                 <p>ToDo app in Reactjs</p>
                 <TodoForm addTodo={addTodo}/>
-                <TodoForm todos={todos}/>
+                <TodoList todos={todos}/>
             </header>
         </div>
     );
