@@ -13,8 +13,13 @@ function TodoForm() {
 
     return (
         <form action="">
-            <input/>
-            <button/>
+            <input
+                name="task"
+                type="text"
+                value={todo.task}
+                onChange={handleTaskInputChange}
+            />
+            <button type="submit"/>
         </form>
     );
 }
